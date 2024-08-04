@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Prediction</title>
+</head>
+<body>
+    <h1>Model Prediction</h1>
+    <form action="/predict" method="post">
+        <!-- Add input fields for the features -->
+        <label for="feature1">Feature 1:</label>
+        <input type="text" name="feature1" required><br>
+        <label for="feature2">Feature 2:</label>
+        <input type="text" name="feature2" required><br>
+        <label for="feature3">Feature 3:</label>
+        <input type="text" name="feature3" required><br>
+        <label for="feature4">Feature 4:</label>
+        <input type="text" name="feature4" required><br>
+        <label for="feature5">Feature 5:</label>
+        <input type="text" name="feature5" required><br>
+        <label for="feature6">Feature 6:</label>
+        <input type="text" name="feature6" required><br>
+        <label for="feature7">Feature 7:</label>
+        <input type="text" name="feature7" required><br>
+        <label for="feature8">Feature 8:</label>
+        <input type="text" name="feature8" required><br>
+        <label for="feature9">Feature 9:</label>
+        <input type="text" name="feature9" required><br>
+        <input type="submit" value="Predict">
+    </form>
+    <p>{{ prediction_text }}</p>
+</body>
+</html>
+
